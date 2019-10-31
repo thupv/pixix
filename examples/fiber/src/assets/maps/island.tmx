@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="58" height="47" tilewidth="16" tileheight="16" infinite="0" nextobjectid="12">
+ <tileset firstgid="1" name="island" tilewidth="16" tileheight="16" tilecount="936" columns="36">
+  <image source="island.png" width="576" height="416"/>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="1000"/>
+    <frame tileid="46" duration="1000"/>
+    <frame tileid="55" duration="1000"/>
+    <frame tileid="64" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="148">
+   <animation>
+    <frame tileid="148" duration="1000"/>
+    <frame tileid="157" duration="1000"/>
+    <frame tileid="166" duration="1000"/>
+    <frame tileid="175" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="1" width="58" height="47">
+  <data encoding="base64" compression="zlib">
+   eJztmH1u00AQxb3h+ySFcgtASJVqx7EvwAVKgfQclYA6cBc4R8g/fPYizKj75JfJrt1SpzHV/vHkxlsn+8vMvJlNk2VZk5SUlJSUlJR9N9r1frbBdyJybl2v5d7xCPY3hMD3XtSIaq+F6IOsfRzBHodgVL4p8THrbeD8JPosOqP41Ua3gVP1WPREtCK2peibu7j3v3HG/PNQlBOval/01N/bH8HeL6N5tu6jMf8Ebz6CPf8LY+Zan5mOOA9t3+7r4bzOXlqIKtGzSZZN3LhmgFDfjvVwm5/ObfYL6NSvg3eXMxBioft6IDEo5Tp32Su9QpyD6BGIna7npuczc0m8u5iB5oaR9/VOOGviRA7qc19EX0UH8nrm1/n53N+r/PrMfx9Y1+/g/AZrmOOiceQZ5a3nrIkjFNPKrxV0rYip8NyNYdbrSzd8LwnVA+KCPs3598ZwxnKX41TT83mgXiuvc2IsBuRjz0Dusfayiz698nubUSyaHs5QznLMeG3m339oRj4bYK+nEdaGWK2v9HHi/5GzBb3mmiy3xGj9pTasNpcPDetlOLEOvsJt5jLX7lC+E/PQWF8LebuyHhjWyj+j//tQro9c+xklcVjG0Ofqe/y4Jid/zxyL0GfG5jN9jyPzLPeX56IXk/Ze2fM5tkbBep2+CQ9d+RpR4ezDvsqslhP5ENo3c+eu9dATt9lL4UOVa733t+jPgPlrzz572bqvosfZHhbyl74YdQmMyOd7kgf3J8Nxdp19UH8hX+DZwTJy/+9bK308kVPSj3X20DlLZ8obm4OO3OaME6pv9sszYsJcGxL/RmBrBz36puc99RV4qPXRUF1af7NMS9fWSex3A7zeJiPnLjwJHso+GspH1NmUGC0TzwBcO/bekCxd5zyeCaZufR7P6e/CxAx1Z+eGZgv771PoHByaf2xcESuuSxszrrld/y7C9bdwm+fc0PwDVo3rT9GviF/YmtsVo4rPweyTi8jemVVz8o7U6N1JuO+M7bc6ywp1nW1tXi47/ndMQv7CV7DvrjPRmPLyKrrqvseWl0lJSUlJSdvQXyaqnVE=
+  </data>
+ </layer>
+ <layer name="2" width="58" height="47">
+  <data encoding="base64" compression="zlib">
+   eJztmElOw0AQRR3nImGBIhIkhlsgCCzCzCHCBsgA5BxAmM/BeBbgHDwrsVgECy/sbnXxn/Q2XqTru1pd7USREEIIIYQImUbsuwK3rBnNWyfXVcVvDZusv4XbJdfx4jlnl/V72PdcR9mMyHeNN8ZzvpLvDd+N5/wg3yd+Gc+ZMlfAWd8JYF60J/20PsvXybdhPGMRe9Y6KxnvyOrdrlaNohk8dJhv1ei7TGnFfs/LpoO1k9lV5jon/PYCLuISLmesFdJcmq36rsAtR/TmOB73spuzT/Pxjyk73EF2cQ/38cDjHTOZD1lnZY/nfRzkyPpbzgG5TvEMz3EY+F36gvovK9M5b3l2h/f4gI8ec2bNorz7NeGJ+p8D6FX6vdEK6MwU0/z13ehi/guRUP8Hey2E/2mEEEIIUSzfPZMj/A==
+  </data>
+ </layer>
+ <layer name="5" width="58" height="47">
+  <data encoding="base64" compression="zlib">
+   eJzt1bcNwlAURuFnU5KWAPYhzwGMQlqE3JJWINktaQVAHInGIDdIIOvB/0mnsEVxr56NjRERERERERERERvsHGM88p2oJ/ky1xiHXOpRnwZu1EN9XoadspSjFa1pY9GeNWatU+ONmS/89ko3C/ZsMmOL2tSh7svMU97DGc1pQUtL38she41oTJOQc9mz14GOdKKzpXtu2W1HHvkvexa5jlOCkpSitAXPaNDT9yHGf2gs6om+JPB9CMpzXXAfZ1my7OzCBL8PYcrcr1D1B3b9d7/wvIqIiIiIiIiEuQPCYiRe
+  </data>
+ </layer>
+ <layer name="Collision" width="58" height="47">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEKACAIBdA6Y/e/SzQErQ0W1nvgKn7RUgAAAAAA4rR6e4LzfsxMDvM2X7jRiAyj51rEsmN2+E8AAIA8OmFcBJk=
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="5" name="Exit" type="exit" x="336" y="208" width="48" height="48"/>
+  <object id="8" name="Starting Point" type="start" x="794.667" y="471.667">
+   <point/>
+  </object>
+  <object id="9" name="Rest" type="rest" x="656" y="448" width="48" height="48"/>
+ </objectgroup>
+</map>
